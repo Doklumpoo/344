@@ -1,0 +1,22 @@
+
+    body{
+        font-family:'Kanit', sans-serif;
+    }
+    .headercs{
+    
+        font-size: 30px;
+        color: black;
+        background-color: coral;
+        height:100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+    .content{
+        color: chocolate;
+    }
