@@ -1,16 +1,13 @@
 
     body{
-        font-family:'Kanit', sans-serif;
+        font-family: 'Rowdies', cursive;
     }
     .headercs{
     
-        font-size: 30px;
+        font-size: 70px;
         color: black;
         background-color: coral;
         height:100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
 
     }
     .center{
@@ -18,5 +15,50 @@
         justify-content: center;
         align-items: center;}
     .content{
-        color: chocolate;
+        color: chocolate;   
+    } 
+    .bg{
+        font-size: 30px;
+        color: azure;
+        background-color: darkgrey;
+        height:40px;
+    }
+    .clear{
+        clear:both; line-height:0; height:0; font-size: 1px
+    }
+    .box-1{
+         float:left;
+    }
+    .box-2{
+         float:right;text-align:right;
+    }
+    .button {
+        background-color: #eeb473; 
+        border: none;
+        color: white;
+        padding: 15px 100px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+    div.img {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 400px;
+    }
+    
+    div.img:hover {
+        border: 1px solid #777;
+    }
+    
+    div.img img {
+        width: 100%;
+        height: auto;
+    }
+    
+    div.desc {
+        padding: 15px;
+        text-align: center;
     }
